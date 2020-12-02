@@ -47,6 +47,17 @@ namespace MultiFaceRec
             grabber.QueryFrame();
             Application.Idle += new EventHandler(FrameGrabber);
         }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FaceRecognition form = new FaceRecognition();
+            // form.Show();
+
+            this.Hide();
+            form.ShowDialog();
+            this.Close();
+        }
+
         void FrameGrabber(object sender, EventArgs e)
         {
            // label3.Text = "0";

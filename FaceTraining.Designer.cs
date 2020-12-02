@@ -125,6 +125,7 @@ namespace MultiFaceRec
             this.homeToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
             resources.ApplyResources(this.homeToolStripMenuItem, "homeToolStripMenuItem");
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
             // panel2
             // 
