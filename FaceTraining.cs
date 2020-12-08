@@ -10,9 +10,9 @@ using System.IO;
 using System.Diagnostics;
 using System.Management;
 using DirectShowLib;
-using MultiFaceRec.Models;
+using SmartCamera.Models;
 
-namespace MultiFaceRec
+namespace SmartCamera
 {
     public partial class FaceTraining : Form
     {
@@ -210,7 +210,7 @@ namespace MultiFaceRec
 
                     var people = new People()
                     {
-                        ImageName = "face" + index + ".bmp",
+                        ImageName = new Bitmap(Application.StartupPath + "/TrainedFaces/face" + index + ".bmp"),
                         UserName = item
                     };
                     peoples.Add(people);

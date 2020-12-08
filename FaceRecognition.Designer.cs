@@ -1,5 +1,5 @@
 ﻿
-namespace MultiFaceRec
+namespace SmartCamera
 {
     partial class FaceRecognition
     {

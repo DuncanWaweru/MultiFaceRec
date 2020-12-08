@@ -1,4 +1,4 @@
-﻿namespace MultiFaceRec
+﻿namespace SmartCamera
 {
     partial class FrmPrincipal
     {
@@ -193,7 +193,7 @@
             // 
             // btnDonate
             // 
-            this.btnDonate.BackgroundImage = global::MultiFaceRec.Properties.Resources.Donate;
+            this.btnDonate.BackgroundImage = global::SmartCamera.Properties.Resources.Donate;
             this.btnDonate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnDonate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDonate.ForeColor = System.Drawing.SystemColors.Control;

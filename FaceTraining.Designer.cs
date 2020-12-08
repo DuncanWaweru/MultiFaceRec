@@ -1,5 +1,5 @@
 ﻿
-namespace MultiFaceRec
+namespace SmartCamera
 {
     partial class FaceTraining
     {
@@ -44,10 +44,10 @@ namespace MultiFaceRec
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.peopleBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
             this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.imageNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.peopleBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.imageNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewImageColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageBoxFrameGrabber)).BeginInit();
@@ -152,6 +152,10 @@ namespace MultiFaceRec
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 33;
             // 
+            // peopleBindingSource
+            // 
+            this.peopleBindingSource.DataSource = typeof(SmartCamera.Models.People);
+            // 
             // panel3
             // 
             resources.ApplyResources(this.panel3, "panel3");
@@ -169,10 +173,7 @@ namespace MultiFaceRec
             resources.ApplyResources(this.imageNameDataGridViewTextBoxColumn, "imageNameDataGridViewTextBoxColumn");
             this.imageNameDataGridViewTextBoxColumn.Name = "imageNameDataGridViewTextBoxColumn";
             this.imageNameDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // peopleBindingSource
-            // 
-            this.peopleBindingSource.DataSource = typeof(MultiFaceRec.Models.People);
+            this.imageNameDataGridViewTextBoxColumn.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // FaceTraining
             // 
@@ -214,10 +215,10 @@ namespace MultiFaceRec
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource peopleBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn userNameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn imageNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn userNameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewImageColumn imageNameDataGridViewTextBoxColumn;
     }
 }

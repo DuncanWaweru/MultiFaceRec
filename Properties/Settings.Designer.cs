@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MultiFaceRec.Properties {
+namespace SmartCamera.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

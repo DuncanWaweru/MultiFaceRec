@@ -328,7 +328,7 @@
     <value>206, 17</value>
   </metadata>
   <data name="homeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 38</value>
+    <value>100, 36</value>
   </data>
   <data name="homeToolStripMenuItem.Text" xml:space="preserve">
     <value>Home</value>
@@ -337,7 +337,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1884, 42</value>
+    <value>1884, 40</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -504,9 +504,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1884, 1100</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>Manual</value>
   </data>
@@ -525,6 +522,12 @@
   <data name="&gt;&gt;homeToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;peopleBindingSource.Name" xml:space="preserve">
+    <value>peopleBindingSource</value>
+  </data>
+  <data name="&gt;&gt;peopleBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;userNameDataGridViewTextBoxColumn.Name" xml:space="preserve">
     <value>userNameDataGridViewTextBoxColumn</value>
   </data>
@@ -535,13 +538,7 @@
     <value>imageNameDataGridViewTextBoxColumn</value>
   </data>
   <data name="&gt;&gt;imageNameDataGridViewTextBoxColumn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;peopleBindingSource.Name" xml:space="preserve">
-    <value>peopleBindingSource</value>
-  </data>
-  <data name="&gt;&gt;peopleBindingSource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FaceTraining</value>

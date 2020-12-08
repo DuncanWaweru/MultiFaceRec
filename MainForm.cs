@@ -18,7 +18,7 @@ using System.Diagnostics;
 using System.Management;
 using DirectShowLib;
 
-namespace MultiFaceRec
+namespace SmartCamera
 {
     public partial class FrmPrincipal : Form
     {
